@@ -18,4 +18,16 @@ a img.arg-leon {
   width: 4rem;
 }
 
+button.navbar-toggler.shadow-none {
+  border: none;
+}
+
+div ul li a.nav-link {
+  color: white;
+}
+
+a img.arg-leon {
+  width: 4rem;
+}
+
 /*# sourceMappingURL=style.css.map */
