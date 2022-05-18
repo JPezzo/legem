@@ -2,8 +2,20 @@ body {
   background-color: #22272b;
 }
 
-h1, h2, h3, h4, h5, h6, p {
-  font-family: "Times New Roman", Times, serif;
+h1, h2, h3, h4, h5, h6, p, a {
+  font-family: "Roboto", sans-serif;
+}
+
+button.navbar-toggler.shadow-none {
+  border: none;
+}
+
+div ul li a.nav-link {
+  color: white;
+}
+
+a img.arg-leon {
+  width: 4rem;
 }
 
 /*# sourceMappingURL=style.css.map */

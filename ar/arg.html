@@ -12,10 +12,12 @@
 
 
     <!-- Tipografía -->
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
 
     <!-- Favicon -->
     <link rel="shortcut icon" href=".ico" type="image/x-icon">
@@ -32,36 +34,45 @@
     <meta property="og:url" content=".html">
     <meta property="og:image" content=".png">
 
-    <title>Inicio | Estudio Jurídico LEGEM - ¡Bienvenidos al estudio!</title>
+    <title>Argentina | Estudio Jurídico LEGEM - ¡Bienvenidos al estudio en Argentina!</title>
 </head>
 <body>
-
-    <section class="text-light p-3 text-center">
+    <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container">
-            <div class="row">
-                <div class="d-flex justify-content-center index-padding-1">
-                    <img class="img-fluid img-legem-index" src="multimedia/index-logo-legem4.jpg" alt="">
-                </div>
+            <a href="" class="navbar-brand">
+                <img class="arg-leon" src="../multimedia/leon-xxs.jpg" alt="">
+            </a>
+
+            <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="" class="nav-link">NUESTRO ESTUDIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">ÁREAS DE PRÁCTICA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">CONTACTO</a>
+                    </li>
+                </ul>
             </div>
-            <div class="row">
-                <div class="col-md-6 col-sm-12 index-padding-2 py-3 px-5">
-                    <h2 class="h2-index">ARGENTINA</h2>
-                    <a href="/ar/arg.html">
-                        <img class="img-fluid img-argentina" src="multimedia/bandera-argentina.png" alt="">
-                    </a>
-                </div>
-                <div class="col-md-6 col-sm-12 index-padding-3 py-3 px-5">
-                    <h2 class="h2-index">EUROPA</h2>
-                    <a href="">
-                        <img class="img-fluid img-europa" src="multimedia/bandera-espana-italia.jpg" alt="">
-                    </a>
-                </div>
-            </div>
+
         </div>
-    </section>
-    
+    </nav>
+
+
+
+
+
+
 
     <!-- Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+    <script src="../menu.js"></script>
 </body>
 </html>
