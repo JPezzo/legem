@@ -6,6 +6,10 @@ h1, h2, h3, h4, h5, h6, p, a {
   font-family: "Roboto", sans-serif;
 }
 
+body section.text-light.p-3.text-center.section-1-index {
+  background-color: #22272b;
+}
+
 button.navbar-toggler.shadow-none {
   border: none;
 }
