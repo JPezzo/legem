@@ -5,6 +5,10 @@
 //     background-color: #22272b;
 // }
 
+nav.navbar-expand-lg.navbar-dark {
+    background-color: #22272b
+}
+
 button.navbar-toggler.shadow-none {
     border: none;
 }
@@ -16,3 +20,10 @@ div ul li a.nav-link {
 a img.arg-leon {
     width: 4rem;
 }
+
+a.active-inicio {
+    text-decoration:overline;
+    font-weight: bold;
+}
+
+// Arg Index section 1

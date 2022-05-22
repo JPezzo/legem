@@ -1,4 +1,8 @@
-justify-content-sm-center
+
+
+
+
+d-flex justify-content-sm-center
 mx-auto
 
 header {

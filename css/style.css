@@ -4,9 +4,14 @@ body {
 
 h1, h2, h3, h4, h5, h6, p, a {
   font-family: "Roboto", sans-serif;
+  color: #ffffff;
 }
 
 body section.text-light.p-3.text-center.section-1-index {
+  background-color: #22272b;
+}
+
+nav.navbar-expand-lg.navbar-dark {
   background-color: #22272b;
 }
 
@@ -22,6 +27,11 @@ a img.arg-leon {
   width: 4rem;
 }
 
+a.active-inicio {
+  text-decoration: overline;
+  font-weight: bold;
+}
+
 button.navbar-toggler.shadow-none {
   border: none;
 }
@@ -32,6 +42,21 @@ div ul li a.nav-link {
 
 a img.arg-leon {
   width: 4rem;
+}
+
+a.active-estudio-arg {
+  text-decoration: overline;
+  font-weight: bold;
+}
+
+a.active-practica-arg {
+  text-decoration: overline;
+  font-weight: bold;
+}
+
+a.active-contacto-arg {
+  text-decoration: overline;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=style.css.map */
