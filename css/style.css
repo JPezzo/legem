@@ -173,19 +173,4 @@ img.mantenimiento {
   height: 90%;
 }
 
-img.mantenimiento-mb {
-  display: none;
-}
-
-@media screen and (max-width: 480px) {
-  img.mantenimiento {
-    display: none;
-  }
-
-  img.mantenimiento-mb {
-    display: inline-block;
-    width: 99%;
-  }
-}
-
 /*# sourceMappingURL=style.css.map */
