@@ -1,5 +1,24 @@
 img.mantenimiento {
-    padding-left: 7rem;
-    width: 80%;
-    height: 80%;
+    padding-left: 8rem;
+    width: 90%;
+    height: 90%;
+}
+
+img.mantenimiento-mb {
+    display: none;
+}
+
+// Media query
+
+@media screen and (max-width: 480px) {
+    
+    img.mantenimiento {
+        display: none;
+    }
+
+    img.mantenimiento-mb {
+        display: inline-block;
+        width: 99%;
+    }
+
 }
