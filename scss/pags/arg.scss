@@ -28,10 +28,16 @@ a.active-inicio {
 
 // Arg Index section 1
 
+button span.carousel-control-prev-icon {
+  align-self: start;
+}
+
+button span.carousel-control-next-icon {
+  align-self: start;
+}
+
 div.carousel-caption {
-    top: 20rem;
     left: 0;
-    bottom: auto;
 }
 
 h5.car-slide-indexarg-h5 {
@@ -104,4 +110,12 @@ p.car-slide-indexarg-p {
 @-ms-keyframes fadeIn {
 0% {opacity:0;}
 100% {opacity:1;}
+}
+
+@media screen and (min-width: 992px) {
+
+  div.carousel-caption {
+    top: 20rem;
+}
+
 }

@@ -32,10 +32,16 @@ a.active-inicio {
   font-weight: bold;
 }
 
+button span.carousel-control-prev-icon {
+  align-self: start;
+}
+
+button span.carousel-control-next-icon {
+  align-self: start;
+}
+
 div.carousel-caption {
-  top: 20rem;
   left: 0;
-  bottom: auto;
 }
 
 h5.car-slide-indexarg-h5 {
@@ -138,6 +144,11 @@ p.car-slide-indexarg-p {
   }
   100% {
     opacity: 1;
+  }
+}
+@media screen and (min-width: 992px) {
+  div.carousel-caption {
+    top: 20rem;
   }
 }
 button.navbar-toggler.shadow-none {
