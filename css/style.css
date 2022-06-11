@@ -151,9 +151,26 @@ section.arg-index-section-2 {
   padding-bottom: 8rem;
 }
 
+.bordleft {
+  border-left: 0.1rem solid #A39474;
+}
+
 @media screen and (min-width: 992px) {
   div.carousel-caption {
     top: 20rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .bordbott {
+    border-bottom: 0.1rem solid #A39474;
+  }
+
+  .textadjust {
+    text-align: center;
+  }
+
+  .bordleft {
+    border-left: none;
   }
 }
 button.navbar-toggler.shadow-none {

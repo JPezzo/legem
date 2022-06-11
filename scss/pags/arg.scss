@@ -120,6 +120,13 @@ section.arg-index-section-2 {
   padding-bottom: 8rem;
 }
 
+// Arg Index footer
+
+.bordleft {
+  border-left: 0.1rem solid #A39474;
+}
+
+
 // Media queries
 
 @media screen and (min-width: 992px) {
@@ -128,6 +135,24 @@ section.arg-index-section-2 {
 
   div.carousel-caption {
     top: 20rem;
+  }
+
 }
+
+@media screen and (max-width: 767px) {
+
+  // Arg Index footer
+
+  .bordbott {
+    border-bottom: 0.1rem solid #A39474;
+  }
+
+  .textadjust {
+    text-align: center;
+  }
+
+  .bordleft {
+    border-left: none;
+  }
 
 }
