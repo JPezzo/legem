@@ -3,7 +3,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6, p, a {
-  font-family: "Roboto", sans-serif;
+  font-family: "Noto Serif", serif;
   color: #ffffff;
 }
 
@@ -30,6 +30,12 @@ a img.arg-leon {
 a.active-inicio {
   text-decoration: overline;
   font-weight: bold;
+}
+
+div.carousel-caption {
+  top: 50%;
+  transform: translateY(-50%);
+  bottom: initial;
 }
 
 button span.carousel-control-prev-icon {
@@ -137,21 +143,21 @@ p.car-slide-indexarg-p {
   }
 }
 h1.cssforh1 {
-  font-size: 5.5rem;
-  color: wheat;
-  text-shadow: 3px 3px 4px #22272b;
-  border-top: 0.2rem solid wheat;
-}
-
-h2.cssforh2 {
   font-size: 5rem;
   color: wheat;
   text-shadow: 3px 3px 4px #22272b;
   border-top: 0.2rem solid wheat;
 }
 
+h2.cssforh2 {
+  font-size: 4.1rem;
+  color: wheat;
+  text-shadow: 3px 3px 4px #22272b;
+  border-top: 0.2rem solid wheat;
+}
+
 p.cssforpcarousel {
-  font-size: 2.2rem;
+  font-size: 1.9rem;
   color: white;
   text-shadow: 1px 1px 3px #22272b;
 }
@@ -161,16 +167,51 @@ section.arg-index-section-2 {
   padding-bottom: 8rem;
 }
 
+p.psection2indexarg1 {
+  font-size: 1.4rem;
+  color: #a39377;
+  font-weight: bold;
+}
+
+h2.h2section2indexarg {
+  font-size: 3.2rem;
+  font-weight: bold;
+}
+
+p.psection2indexarg2 {
+  font-size: 1.6rem;
+}
+
 .bordleft {
   border-left: 0.1rem solid #A39474;
 }
 
-@media screen and (min-width: 992px) {
-  div.carousel-caption {
-    top: 20rem;
+p.pfooterindexarg {
+  font-size: 1.1rem;
+}
+
+a.afooterindexarg {
+  font-size: 1.1rem;
+}
+
+@media screen and (max-width: 768px) {
+  h1.cssforh1 {
+    font-size: 3rem;
+  }
+
+  h2.cssforh2 {
+    font-size: 2.6rem;
+  }
+
+  p.cssforpcarousel {
+    font-size: 1.5rem;
   }
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 991px) {
+  div.imglogolegemfooter {
+    text-align: center;
+  }
+
   .bordbott {
     border-bottom: 0.1rem solid #A39474;
   }
