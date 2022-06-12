@@ -40,7 +40,7 @@ button span.carousel-control-next-icon {
   align-self: flex-end;
 }
 
-.car-slide-indexarg-h5 {
+.car-slide-indexarg-h2 {
   animation: fadeIn linear 2s;
   -webkit-animation: fadeIn linear 2s;
   -moz-animation: fadeIn linear 2s;
@@ -138,12 +138,20 @@ p.car-slide-indexarg-p {
 }
 h1.cssforh1 {
   font-size: 5.5rem;
-  color: #a39474;
+  color: wheat;
   text-shadow: 3px 3px 4px #22272b;
+  border-top: 0.2rem solid wheat;
+}
+
+h2.cssforh2 {
+  font-size: 5rem;
+  color: wheat;
+  text-shadow: 3px 3px 4px #22272b;
+  border-top: 0.2rem solid wheat;
 }
 
 p.cssforpcarousel {
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   color: white;
   text-shadow: 1px 1px 3px #22272b;
 }
