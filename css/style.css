@@ -11,6 +11,21 @@ body section.text-light.p-3.text-center.section-1-index {
   background-color: #22272b;
 }
 
+img.img-argentina:hover {
+  box-shadow: 0rem 0rem 2rem #368cb4b7;
+}
+
+img.img-europa:hover {
+  box-shadow: 0rem 0rem 2rem #e25d3cb7;
+}
+
+.grow {
+  transition: all 0.2s ease-in-out;
+}
+.grow:hover {
+  transform: scale(1.05);
+}
+
 nav.navbar-expand-lg.navbar-dark {
   background-color: #22272b;
 }
@@ -192,6 +207,10 @@ p.pfooterindexarg {
 
 a.afooterindexarg {
   font-size: 1.1rem;
+}
+
+a.afooterindexarg:hover {
+  color: #6d716e;
 }
 
 @media screen and (max-width: 768px) {

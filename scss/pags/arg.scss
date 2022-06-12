@@ -161,6 +161,10 @@ a.afooterindexarg {
   font-size: 1.1rem;
 }
 
+a.afooterindexarg:hover {
+  color: rgba(109,113,110,1);
+}
+
 // Media queries
 
 @media screen and (max-width: 768px) {
