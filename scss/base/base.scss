@@ -7,3 +7,45 @@ h1, h2, h3, h4, h5, h6, p, a {
     font-family: 'Noto Serif', serif;    
     color: #ffffff;
 }
+
+
+// Footer
+
+.bordleft {
+    border-left: 0.1rem solid #A39474;
+  }
+  
+  p.pfooterindexarg {
+    font-size: 1.1rem;
+  }
+  
+  a.afooterindexarg {
+    font-size: 1.1rem;
+  }
+  
+  a.afooterindexarg:hover {
+    color: rgba(109,113,110,1);
+  }
+
+  
+@media screen and (max-width: 991px) {
+
+    // Footer
+  
+    div.imglogolegemfooter {
+      text-align: center;
+    }
+  
+    .bordbott {
+      border-bottom: 0.1rem solid #A39474;
+    }
+  
+    .textadjust {
+      text-align: center;
+    }
+  
+    .bordleft {
+      border-left: none;
+    }
+  
+  }

@@ -18,7 +18,8 @@ a img.arg-leon {
 }
 
 a.active-inicio {
-  text-decoration: overline;
+  text-decoration: underline;
+  text-underline-position: under;
   font-weight: bold;
 }
 
@@ -147,24 +148,6 @@ p.psection2indexarg2 {
   font-size: 1.6rem;
 }
 
-// Arg Index footer
-
-.bordleft {
-  border-left: 0.1rem solid #A39474;
-}
-
-p.pfooterindexarg {
-  font-size: 1.1rem;
-}
-
-a.afooterindexarg {
-  font-size: 1.1rem;
-}
-
-a.afooterindexarg:hover {
-  color: rgba(109,113,110,1);
-}
-
 // Media queries
 
 @media screen and (max-width: 768px) {
@@ -181,28 +164,6 @@ a.afooterindexarg:hover {
   
   p.cssforpcarousel {
     font-size: 1.5rem;
-  }
-
-}
-
-@media screen and (max-width: 991px) {
-
-  // Arg Index footer
-
-  div.imglogolegemfooter {
-    text-align: center;
-  }
-
-  .bordbott {
-    border-bottom: 0.1rem solid #A39474;
-  }
-
-  .textadjust {
-    text-align: center;
-  }
-
-  .bordleft {
-    border-left: none;
   }
 
 }
