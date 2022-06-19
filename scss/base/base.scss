@@ -1,11 +1,11 @@
 
 body {
-    background-color: #22272b;
+  background-color: #22272b;
 }
 
 h1, h2, h3, h4, h5, h6, p, a {
-    font-family: 'Noto Serif', serif;    
-    color: #ffffff;
+  font-family: 'Noto Serif', serif;    
+  color: #ffffff;
 }
 
 
@@ -16,20 +16,20 @@ div.imglogolegemfooter {
 }
 
 .bordleft {
-    border-left: 0.1rem solid #A39474;
-  }
+  border-left: 0.1rem solid #A39474;
+}
   
-  p.pfooterindexarg {
-    font-size: 1.1rem;
-  }
+p.pfooterindexarg {
+  font-size: 1.1rem;
+}
   
-  a.afooterindexarg {
-    font-size: 1.1rem;
-  }
+a.afooterindexarg {
+  font-size: 1.1rem;
+}
   
-  a.afooterindexarg:hover {
-    color: rgba(109,113,110,1);
-  }
+a.afooterindexarg:hover {
+  color: rgba(109,113,110,1);
+}
 
   
 @media screen and (max-width: 991px) {
