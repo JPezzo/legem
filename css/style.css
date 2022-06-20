@@ -2,7 +2,7 @@ body {
   background-color: #22272b;
 }
 
-h1, h2, h3, h4, h5, h6, p, a {
+h1, h2, h3, h4, h5, h6, p, a, ul, li {
   font-family: "League Spartan", sans-serif;
   color: #ffffff;
 }
@@ -269,6 +269,31 @@ h2.h2section2practica {
   text-align: center;
   padding-bottom: 4rem;
   color: #a39377;
+}
+
+div.div-bandera-argentina {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+div.div-bandera-europa {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+img.img-argentina:hover {
+  box-shadow: 0rem 0rem 2rem #368cb4b7;
+}
+
+img.img-europa:hover {
+  box-shadow: 0rem 0rem 2rem #e25d3cb7;
+}
+
+.grow {
+  transition: all 0.2s ease-in-out;
+}
+.grow:hover {
+  transform: scale(1.05);
 }
 
 a.active-contacto-arg {
