@@ -290,10 +290,35 @@ img.img-europa:hover {
 }
 
 .grow {
-  transition: all 0.2s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 .grow:hover {
-  transform: scale(1.05);
+  transform: scale(1.03);
+}
+
+.borderbottpractband {
+  border-bottom: 1px solid #CBB17E;
+}
+
+.distance {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.grow2 {
+  transition: all 0.4s ease-in-out;
+}
+.grow2:hover {
+  transform: scale(1.03);
+}
+
+img.img-serv:hover {
+  box-shadow: 0rem 0rem 1.5rem #CBB17E;
+}
+
+.title-serveur {
+  padding-top: 8rem;
+  border-top: 1px solid #CBB17E;
 }
 
 a.active-contacto-arg {
