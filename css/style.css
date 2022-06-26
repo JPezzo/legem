@@ -351,6 +351,10 @@ h2.h2section2contacto {
   color: #a39377;
 }
 
+#argcont {
+  justify-content: center;
+}
+
 img.mantenimiento {
   padding-left: 8rem;
   width: 90%;
