@@ -208,6 +208,15 @@ p.cssforpcarousel {
   text-shadow: 1px 1px 3px #22272b;
 }
 
+button.button-areas-practica {
+  background-color: #22272b;
+}
+
+a.a-areas-practica {
+  color: #a39377;
+  text-decoration: none;
+}
+
 section.arg-index-section-2 {
   padding-top: 8rem;
   padding-bottom: 8rem;
