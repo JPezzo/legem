@@ -274,6 +274,10 @@ p.psection2nuestroestudio {
   padding-bottom: 1.5rem;
 }
 
+a.monica-lk-none {
+  text-decoration: none;
+}
+
 a.active-practica-arg {
   text-decoration: underline;
   text-underline-position: under;
