@@ -272,6 +272,7 @@ h2.h2section2estudio {
 p.psection2nuestroestudio {
   font-size: 1.6rem;
   padding-bottom: 1.5rem;
+  text-align: justify;
 }
 
 a.monica-lk-none {
@@ -299,6 +300,7 @@ h2.h2section2practica {
 p.psection2adp {
   font-size: 1.6rem;
   padding-bottom: 1.5rem;
+  text-align: justify;
 }
 
 div.div-bandera-argentina {
