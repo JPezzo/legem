@@ -369,6 +369,10 @@ button.button-volver:hover {
   text-decoration: underline;
 }
 
+ul.ulsubadp {
+  font-size: 1.5rem;
+}
+
 a.active-contacto-arg {
   text-decoration: underline;
   text-underline-position: under;
