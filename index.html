@@ -9,7 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 
     <!-- Animación -->
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <!-- Tipografía -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -38,206 +38,221 @@
 </head>
 <body>
 
-    <!-- Inicio nav -->
-    <nav class="navbar sticky-top navbar-expand-lg navbar-dark">
-        <div class="container">
-            <a href="index.html" class="navbar-brand">
-                <img class="arg-leon" src="./multimedia/leon-xxs.jpg" alt="León dorado que se encuentra en el logo de Estudio Jurídico LEGEM.">
-            </a>
+    <div data-aos="zoom-in">
 
-            <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navmenu">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item d-flex justify-content-sm-center">
-                        <a href="index.html" class="nav-link active-inicio">INICIO</a>
-                    </li>
-                    <li class="nav-item d-flex justify-content-sm-center">
-                        <a href="./pages/estudio.html" class="nav-link">NUESTRO ESTUDIO</a>
-                    </li>
-                    <li class="nav-item d-flex justify-content-sm-center">
-                        <a href="./pages/areas-de-practica.html" class="nav-link">ÁREAS DE PRÁCTICA</a>
-                    </li>
-                    <li class="nav-item d-flex justify-content-sm-center">
-                        <a href="./pages/contacto.html" class="nav-link">CONTACTO</a>
-                    </li>
-                </ul>
-            </div>
-
-        </div>
-    </nav>
-    <!-- Fin nav -->
-
-    <!-- Inicio section 1 -->
-    <section>
-        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-pause="false">
-            <div class="carousel-inner">
-              <div class="carousel-item active" data-bs-interval="7100">
-                <img src="./multimedia/legem-backgroundokok.jpg" class="d-block w-100" alt="Despacho de abogados de Estudio Jurídico LEGEM, recepción y oficinas.">
-                <div class="carousel-caption d-none d-sm-block">
-                    <div class="container">
-                        <h1 class="car-slide-indexarg-h2 fade-in-text cssforh1"><b>BIENVENIDOS A LEGEM</b></h1>
-                        <p class="car-slide-indexarg-p cssforpcarousel">Un estudio jurídico con más de 30 años de experiencia</p>
-                    </div>
-                </div>
-              </div>
-              <div class="carousel-item" data-bs-interval="7100">
-                <img src="./multimedia/legem-background3psokok.jpg" class="d-block w-100" alt="Despacho de abogados de Estudio Jurídico LEGEM, recepción y oficinas.">
-                <div class="carousel-caption d-none d-sm-block">
-                    <div class="container">
-                        <h2 class="car-slide-indexarg-h2 cssforh2"><b>ESPECIALISTAS EN ACCIDENTES DE TRÁNSITO</b></h2>
-                        <p class="car-slide-indexarg-p cssforpcarousel">Más de tres décadas litigando contra compañías aseguradoras</p>
-                    </div>
-                </div>
-              </div>
-              <div class="carousel-item" data-bs-interval="7100">
-                <img src="./multimedia/legem-background5psokok.jpg" class="d-block w-100" alt="Despacho de abogados de Estudio Jurídico LEGEM, recepción y oficinas.">
-                <div class="carousel-caption d-none d-sm-block">
-                    <div class="container">
-                        <h2 class="car-slide-indexarg-h2 cssforh2"><b>LIDERAZGO EN DERECHO CIVIL Y COMERCIAL</b></h2>
-                        <p class="car-slide-indexarg-p cssforpcarousel">Ofrecemos una extensa gama de servicios</p>
-                    </div>
-                </div>
-              </div>
-              <div class="carousel-item" data-bs-interval="7100">
-                <img src="./multimedia/legem-background7okok.jpg" class="d-block w-100" alt="Despacho de abogados de Estudio Jurídico LEGEM, recepción y oficinas.">
-                <div class="carousel-caption d-none d-sm-block">
-                    <div class="container">
-                        <h2 class="car-slide-indexarg-h2 cssforh2"><b>DERECHO MIGRATORIO</b></h2>
-                        <p class="car-slide-indexarg-p cssforpcarousel">Contamos con un equipo especializado en trámites de extranjería y gestiones internacionales</p>
-                    </div>
-                </div>
-              </div>
-              <div class="carousel-item" data-bs-interval="7100">
-                <img src="./multimedia/legem-background6psokok.jpg" class="d-block w-100" alt="Despacho de abogados de Estudio Jurídico LEGEM, recepción y oficinas.">
-                <div class="carousel-caption d-none d-sm-block">
-                    <div class="container">
-                        <h2 class="car-slide-indexarg-h2 cssforh2"><b>CAPACITACIÓN CONTINUA</b></h2>
-                        <p class="car-slide-indexarg-p cssforpcarousel">Nos encontramos constantemente en formación para brindar un servicio de calidad</p>
-                    </div>
-                </div>
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-    </section>
-    <!-- Fin section 1 -->
-
-    <!-- Inicio section 2 -->
-    <section class="arg-index-section-2">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 d-flex justify-content-center py-3">
-                    <p class="text-center psection2indexarg1">AL SERVICIO DE NUESTROS CLIENTES</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12 d-flex justify-content-center py-3">
-                    <h2 class="text-center h2section2indexarg">AMPLIA TRAYECTORIA Y CONSTANTE CAPACITACIÓN</h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12 d-flex justify-content-center py-3">
-                    <p class="text-center psection2indexarg2">LEGEM lleva 30 años liderando el derecho de daños y la representación de personas en cuestiones civiles y comerciales en Argentina.</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12 d-flex justify-content-center py-3">
-                    <p class="text-center psection2indexarg2">Nuestra dedicación hacia la comunidad nos inspira a capacitarnos constantemente en miras de ofrecer un servicio de calidad.</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12 d-flex justify-content-center py-3">
-                    <p class="text-center psection2indexarg2">Hoy en día, LEGEM brinda sus servicios a nivel internacional, contando con variados trámites de extranjería en el continente europeo.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Fin section 2 -->
-
-    <!-- Inicio footer -->
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-12 col-sm-12 pb-5 bordbott imglogolegemfooter">
-                    <img class="img-fluid" src="./multimedia/newlogofooter4.png" alt="Logo de Estudio Jurídico LEGEM con un león dorado y el nombre del estudio.">
-                </div>
-                <div class="col-lg-3 col-md-12 col-sm-12 py-3 bordbott textadjust bordleft">
-                    <div class="col-12">
-                        <p class="pfooterindexarg">Martiniano Leguizamón 4401,</p>
-                    </div>
-                    <div class="col-12">
-                        <p class="pfooterindexarg">Villa Lugano (C.P. 1439),</p>
-                    </div>
-                    <div class="col-12">
-                        <p class="pfooterindexarg">C.A.B.A., Argentina</p>
-                    </div>
-                </div>
-                
-                <div class="col-lg-3 col-md-12 col-sm-12 py-3 bordbott textadjust bordleft">
-                    <div class="col-12">
-                        <p class="pfooterindexarg">+54 9 11-2504-7744</p>
-                    </div>
-                    <div class="col-12">
-                        <p class="pfooterindexarg">info@estudiolegem.com</p>
-                    </div>
-                    <div class="col-12">
-                        <a href="https://www.facebook.com/legemestudio" target="_blank" class="afooterindexarg">Facebook</a>
-                    </div>
-                    <div class="col-12">
-                        <a href="https://www.instagram.com/estudiolegem/" target="_blank" class="afooterindexarg">Instagram</a>
-                    </div>
-                    <div class="col-12">
-                        <a href="https://www.linkedin.com/company/estudiolegem" target="_blank" class="afooterindexarg">LinkedIn</a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-12 col-sm-12 py-3 textadjust bordleft">
-                    <div class="col-12">
-                        <a href="index.html" class="afooterindexarg">Inicio</a>
-                    </div>
-                    <div class="col-12">
-                        <a href="./pages/estudio.html" class="afooterindexarg">Nuestro Estudio</a>
-                    </div>
-                    <div class="col-12">
-                        <a href="./pages/areas-de-practica.html" class="afooterindexarg">Áreas de práctica</a>
-                    </div>
-                    <div class="col-12">
-                        <a href="./pages/contacto.html" class="afooterindexarg">Contacto</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <div class="row g-0 pt-3">
-            <div class="col-lg-4 col-md-12 col-sm-12">
-                <a href="https://www.facebook.com/legemestudio" target="_blank">
-                    <img class="img-fluid foothover" src="./multimedia/FootFBLEGEM.png" alt="Botón dorado con logo de Facebook que redirecciona a la página de Estudio Jurídico LEGEM en dicha red social.">
+        <!-- Inicio nav -->
+        <nav class="navbar sticky-top navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a href="index.html" class="navbar-brand">
+                    <img class="arg-leon" src="./multimedia/leon-xxs.jpg" alt="León dorado que se encuentra en el logo de Estudio Jurídico LEGEM.">
                 </a>
+
+                <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navmenu">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item d-flex justify-content-sm-center">
+                            <a href="index.html" class="nav-link active-inicio">INICIO</a>
+                        </li>
+                        <li class="nav-item d-flex justify-content-sm-center">
+                            <a href="./pages/estudio.html" class="nav-link">NUESTRO ESTUDIO</a>
+                        </li>
+                        <li class="nav-item d-flex justify-content-sm-center">
+                            <a href="./pages/areas-de-practica.html" class="nav-link">ÁREAS DE PRÁCTICA</a>
+                        </li>
+                        <li class="nav-item d-flex justify-content-sm-center">
+                            <a href="./pages/contacto.html" class="nav-link">CONTACTO</a>
+                        </li>
+                    </ul>
+                </div>
+
             </div>
-            <div class="col-lg-4 col-md-12 col-sm-12">
-                <a href="https://www.instagram.com/estudiolegem/" target="_blank">
-                    <img class="img-fluid foothover2" src="./multimedia/FootIGLEGEM.png" alt="Botón dorado con logo de Instagram que redirecciona a la página de Estudio Jurídico LEGEM en dicha red social.">
-                </a>
+        </nav>
+        <!-- Fin nav -->
+
+        <!-- Inicio section 1 -->
+        <section>
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-pause="false">
+                <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="7100">
+                    <img src="./multimedia/legem-backgroundokok.jpg" class="d-block w-100" alt="Despacho de abogados de Estudio Jurídico LEGEM, recepción y oficinas.">
+                    <div class="carousel-caption d-none d-sm-block">
+                        <div class="container">
+                            <h1 class="car-slide-indexarg-h2 fade-in-text cssforh1"><b>BIENVENIDOS A LEGEM</b></h1>
+                            <p class="car-slide-indexarg-p cssforpcarousel">Un estudio jurídico con más de 30 años de experiencia</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="7100">
+                    <img src="./multimedia/legem-background3psokok.jpg" class="d-block w-100" alt="Despacho de abogados de Estudio Jurídico LEGEM, recepción y oficinas.">
+                    <div class="carousel-caption d-none d-sm-block">
+                        <div class="container">
+                            <h2 class="car-slide-indexarg-h2 cssforh2"><b>ESPECIALISTAS EN ACCIDENTES DE TRÁNSITO</b></h2>
+                            <p class="car-slide-indexarg-p cssforpcarousel">Más de tres décadas litigando contra compañías aseguradoras</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="7100">
+                    <img src="./multimedia/legem-background5psokok.jpg" class="d-block w-100" alt="Despacho de abogados de Estudio Jurídico LEGEM, recepción y oficinas.">
+                    <div class="carousel-caption d-none d-sm-block">
+                        <div class="container">
+                            <h2 class="car-slide-indexarg-h2 cssforh2"><b>LIDERAZGO EN DERECHO CIVIL Y COMERCIAL</b></h2>
+                            <p class="car-slide-indexarg-p cssforpcarousel">Ofrecemos una extensa gama de servicios</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="7100">
+                    <img src="./multimedia/legem-background7okok.jpg" class="d-block w-100" alt="Despacho de abogados de Estudio Jurídico LEGEM, recepción y oficinas.">
+                    <div class="carousel-caption d-none d-sm-block">
+                        <div class="container">
+                            <h2 class="car-slide-indexarg-h2 cssforh2"><b>DERECHO MIGRATORIO</b></h2>
+                            <p class="car-slide-indexarg-p cssforpcarousel">Contamos con un equipo especializado en trámites de extranjería y gestiones internacionales</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="7100">
+                    <img src="./multimedia/legem-background6psokok.jpg" class="d-block w-100" alt="Despacho de abogados de Estudio Jurídico LEGEM, recepción y oficinas.">
+                    <div class="carousel-caption d-none d-sm-block">
+                        <div class="container">
+                            <h2 class="car-slide-indexarg-h2 cssforh2"><b>CAPACITACIÓN CONTINUA</b></h2>
+                            <p class="car-slide-indexarg-p cssforpcarousel">Nos encontramos constantemente en formación para brindar un servicio de calidad</p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+                </button>
             </div>
-            <div class="col-lg-4 col-md-12 col-sm-12">
-                <a href="https://www.linkedin.com/company/estudiolegem" target="_blank">
-                    <img class="img-fluid foothover3" src="./multimedia/FootLKINLEGEM.png" alt="Botón dorado con logo de LinkedIn que redirecciona a la página de Estudio Jurídico LEGEM en dicha red social.">
-                </a>
+        </section>
+        <!-- Fin section 1 -->
+
+        <!-- Inicio section 2 -->
+        <section class="arg-index-section-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-center py-3">
+                        <p class="text-center psection2indexarg1">AL SERVICIO DE NUESTROS CLIENTES</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-center py-3">
+                        <h2 class="text-center h2section2indexarg">AMPLIA TRAYECTORIA Y CONSTANTE CAPACITACIÓN</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-center py-3">
+                        <p class="text-center psection2indexarg2">LEGEM lleva 30 años liderando el derecho de daños y la representación de personas en cuestiones civiles y comerciales en Argentina.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-center py-3">
+                        <p class="text-center psection2indexarg2">Nuestra dedicación hacia la comunidad nos inspira a capacitarnos constantemente en miras de ofrecer un servicio de calidad.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-center py-3">
+                        <p class="text-center psection2indexarg2">Hoy en día, LEGEM brinda sus servicios a nivel internacional, contando con variados trámites de extranjería en el continente europeo.</p>
+                    </div>
+                </div>
             </div>
-        </div>
-    </footer>
+        </section>
+        <!-- Fin section 2 -->
+
+        <!-- Inicio footer -->
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-12 col-sm-12 pb-5 bordbott imglogolegemfooter">
+                        <img class="img-fluid" src="./multimedia/newlogofooter4.png" alt="Logo de Estudio Jurídico LEGEM con un león dorado y el nombre del estudio.">
+                    </div>
+                    <div class="col-lg-3 col-md-12 col-sm-12 py-3 bordbott textadjust bordleft">
+                        <div class="col-12">
+                            <p class="pfooterindexarg">Martiniano Leguizamón 4401,</p>
+                        </div>
+                        <div class="col-12">
+                            <p class="pfooterindexarg">Villa Lugano (C.P. 1439),</p>
+                        </div>
+                        <div class="col-12">
+                            <p class="pfooterindexarg">C.A.B.A., Argentina</p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-3 col-md-12 col-sm-12 py-3 bordbott textadjust bordleft">
+                        <div class="col-12">
+                            <p class="pfooterindexarg">+54 9 11-2504-7744</p>
+                        </div>
+                        <div class="col-12">
+                            <p class="pfooterindexarg">info@estudiolegem.com</p>
+                        </div>
+                        <div class="col-12">
+                            <a href="https://www.facebook.com/legemestudio" target="_blank" class="afooterindexarg">Facebook</a>
+                        </div>
+                        <div class="col-12">
+                            <a href="https://www.instagram.com/estudiolegem/" target="_blank" class="afooterindexarg">Instagram</a>
+                        </div>
+                        <div class="col-12">
+                            <a href="https://www.linkedin.com/company/estudiolegem" target="_blank" class="afooterindexarg">LinkedIn</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-12 col-sm-12 py-3 textadjust bordleft">
+                        <div class="col-12">
+                            <a href="index.html" class="afooterindexarg">Inicio</a>
+                        </div>
+                        <div class="col-12">
+                            <a href="./pages/estudio.html" class="afooterindexarg">Nuestro Estudio</a>
+                        </div>
+                        <div class="col-12">
+                            <a href="./pages/areas-de-practica.html" class="afooterindexarg">Áreas de práctica</a>
+                        </div>
+                        <div class="col-12">
+                            <a href="./pages/contacto.html" class="afooterindexarg">Contacto</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row g-0 pt-3">
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                    <a href="https://www.facebook.com/legemestudio" target="_blank">
+                        <img class="img-fluid foothover" src="./multimedia/FootFBLEGEM.png" alt="Botón dorado con logo de Facebook que redirecciona a la página de Estudio Jurídico LEGEM en dicha red social.">
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                    <a href="https://www.instagram.com/estudiolegem/" target="_blank">
+                        <img class="img-fluid foothover2" src="./multimedia/FootIGLEGEM.png" alt="Botón dorado con logo de Instagram que redirecciona a la página de Estudio Jurídico LEGEM en dicha red social.">
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                    <a href="https://www.linkedin.com/company/estudiolegem" target="_blank">
+                        <img class="img-fluid foothover3" src="./multimedia/FootLKINLEGEM.png" alt="Botón dorado con logo de LinkedIn que redirecciona a la página de Estudio Jurídico LEGEM en dicha red social.">
+                    </a>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+    
+
 
 
     <!-- Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+    <!-- Animación -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
+
 </body>
 </html>
