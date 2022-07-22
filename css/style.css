@@ -27,6 +27,19 @@ a.afooterindexarg:hover {
   color: #6d716e;
 }
 
+p.legalnote {
+  padding-top: 1.5rem;
+  font-size: 1.2rem;
+}
+
+p.webdeveloper {
+  font-size: 1.2rem;
+}
+
+a.webdeveloper2:hover {
+  color: #6d716e;
+}
+
 .foothover:hover {
   box-shadow: 0rem 0rem 1rem #7c745c;
 }
