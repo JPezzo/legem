@@ -433,4 +433,48 @@ img.mantenimiento {
   height: 90%;
 }
 
+div.sect-team {
+  background-color: rgba(163, 147, 119, 0.144);
+}
+
+.equipo-h1 {
+  color: #c7ac7f;
+  font-size: 2.3rem;
+  padding-bottom: 0.5rem;
+}
+
+.equipo-h2 {
+  color: white;
+  font-size: 1.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.equipo-h3 {
+  color: white;
+  font-size: 1.5rem;
+  padding-bottom: 0.5rem;
+}
+
+div.equipo-padd-top {
+  padding-top: 4rem;
+}
+
+div.equipo-div-padding {
+  padding-top: 2rem;
+}
+
+a.equipo-linkedin {
+  text-decoration: none;
+}
+
+h3.equipo-linkedin2:hover {
+  color: #c7ac7f;
+}
+
+@media screen and (max-width: 991px) {
+  img.equipo-pic-padd-bot {
+    padding-bottom: 1rem;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
