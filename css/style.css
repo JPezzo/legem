@@ -476,5 +476,9 @@ h3.equipo-linkedin2:hover {
     padding-bottom: 1rem;
   }
 }
+p.titulos-blog {
+  font-size: 2.4rem;
+  color: #c7ac7f;
+}
 
 /*# sourceMappingURL=style.css.map */
